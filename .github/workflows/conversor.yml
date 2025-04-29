@@ -19,7 +19,7 @@ jobs:
             texlive-xetex texlive-fonts-recommended texlive-lang-spanish \
             texlive-lang-french texlive-lang-portuguese
 
-          wget -c https://github.com/jgm/pandoc/releases/latest/download/pandoc-$(uname -m).deb
+          wget -c https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-1-amd64.deb
           sudo dpkg -i pandoc-*.deb
 
           sudo gem install pandoc_abnt
