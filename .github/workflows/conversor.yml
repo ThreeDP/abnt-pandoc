@@ -7,7 +7,7 @@ name: Markdown para PDF
 jobs:
   build:
     name: Convertendo
-    runs-on: latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
